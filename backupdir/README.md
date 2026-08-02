@@ -110,6 +110,8 @@ grep Hello newfile
 
 
 
+grep hello newfile 
+## OUTPUT
 
 
 
@@ -454,7 +456,6 @@ ls file1
 
 echo $?
 ## OUTPUT 
-
 ./one
 bash: ./one: Permission denied
  
@@ -470,7 +471,7 @@ echo $?
  
 # mis-using string comparisons
 
-cat > strcomp.sh 
+cat < strcomp.sh 
 ```bash
 \#!/bin/bash
 val1=baseball
